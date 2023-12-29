@@ -1,0 +1,118 @@
+.pc-main {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.pc-main1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #c7c5c5;
+  height: 340px;
+}
+
+
+.pc-product-nmes {
+  font-family: "Simplon Norm";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #252020;
+  cursor: pointer;
+  opacity: 1;
+}
+.pc-img {
+  width: 60%;
+  height: 70%;
+  mix-blend-mode: color-burn;
+}
+.pc-alignText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pc-text {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #888792;
+}
+
+.pc-heartIcon {
+  width: 16px;
+  opacity: 1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pc-heartIcon:active {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 430px) {
+  .pc-main {
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  .pc-main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c7c5c5;
+    height: 220px;
+  }
+
+  .pc-img {
+    width: 60%;
+    height: 70%;
+    mix-blend-mode: color-burn;
+  }
+
+  .pc-alignText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pc-text {
+    font-family: "Simplon Norm";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888792;
+  }
+
+  .pc-heartIcon {
+    width: 16px;
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .pc-heartIcon:active {
+    opacity: 0.8;
+  }
+
+  .pc-product-nmes {
+    font-family: "Simplon Norm";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #252020;
+    cursor: pointer;
+    opacity: 1;
+  }
+}

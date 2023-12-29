@@ -1,0 +1,117 @@
+.mf-cont {
+  padding: 16px;
+  background-color: #000;
+}
+
+.mf-textWidht {
+  width: 90%;
+}
+.mf-text1 {
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.mf-text2 {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: justify;
+  color: #fff;
+}
+
+.f-align1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 16px 0px;
+  border-bottom: 1px solid #fff;
+}
+
+.mf-input1 {
+  background-color: #ffff;
+  border: none;
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bfc8cd;
+  box-sizing: border-box;
+  width: calc(60%);
+  height: 48px;
+  padding: 0px 8px 0px 16px;
+}
+
+.mf-button {
+  height: 48px;
+  width: calc(35%);
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  border: 1.14px solid #ffffff;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mf-star {
+  height: 4px;
+  width: 4px;
+  background-color: #fff;
+  rotate: 135deg;
+}
+
+.mf-aligntext {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.mf-margin {
+  margin: 0;
+}
+
+.mf-divider {
+  padding: 0px 0px 16px 0px;
+  border-bottom: 1px solid#fff;
+}
+
+.mf-divider1 {
+  padding: 0px 0px 24px 0px;
+  border-bottom: 2px solid#fff;
+}
+
+.mf-divider2 {
+  padding: 0px 0px 0px 0px;
+  border-bottom: 1px solid#fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mf-alignIcons {
+  display: flex;
+  padding: 0px 0px 16px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mf-icons {
+  width: calc(12%);
+}
+

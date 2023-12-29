@@ -1,0 +1,276 @@
+.ppp-container {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.ppp-head {
+  font-family: "Simplon Norm";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #252020;
+  margin: 0;
+  padding: 0px 0px 16px 0px;
+}
+
+.ppp-text {
+  font-family: "Simplon Norm";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #252020;
+  margin: 0;
+  width: calc(50%);
+}
+
+.ppp-container1 {
+  display: flex;
+  margin: 16px 32px;
+  padding: 16px 0px 16px 0px;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #e5e5e5;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ppp-alignDiv {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+  transition: 0.5s;
+}
+
+.ppp-alignIcon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.5s;
+}
+
+.ppp-container1-head {
+  font-family: "Simplon Norm";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #252020;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.ppp-container1-head:hover {
+  opacity: 0.8;
+}
+
+.ppp-iconArrow {
+  width: 12px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.ppp-iconArrow:hover {
+  opacity: 0.8;
+}
+
+.ppp-Hide {
+  font-family: "Adobe Caslon Pro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #888792;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.ppp-Hide:hover {
+  opacity: 0.8;
+}
+
+.ppp-sort {
+  position: relative;
+}
+
+.ppp-sort1 {
+  width: auto;
+  height: auto;
+  padding: 8px 16px 8px 32px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  z-index: 1;
+  position: absolute;
+  left: -60px;
+  top: 32;
+  box-shadow: 0px 0px 7px 1px #a3aaaf33;
+}
+
+.ppp-sort2U {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #252020;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.ppp-sort2A {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #252020;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.ppp-sort2A:hover {
+  opacity: 0.8;
+}
+
+.ppp-sort2U:hover {
+  opacity: 0.8;
+}
+
+.ppp-productView {
+  display: flex;
+}
+
+.ppp-productView1 {
+  width: 30%;
+  transition: 0.5s ease-out;
+}
+
+.ppp-productView2 {
+  width: 0%;
+  transition: 0.2s ease-out;
+}
+
+.ppp-productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 16px 32px;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.ppp-toSHow {
+  display: flex;
+}
+
+.ppp-toSHow1 {
+  display: none;
+}
+
+.ppp-divider {
+  height: 100%;
+  width: 1px;
+  background-color: #000;
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .ppp-alignIcon {
+    display: none;
+    align-items: center;
+    gap: 8px;
+    transition: 0.5s;
+  }
+
+  .ppp-productContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 16px;
+    margin: 16px 16px;
+    transition: 0.5s;
+    width: 100%;
+  }
+
+  .ppp-productView1 {
+    width: 30%;
+    transition: 0.5s ease-out;
+    display: none;
+  }
+
+  .ppp-productView2 {
+    width: 0%;
+    transition: 0.2s ease-out;
+    display: none;
+  }
+
+  .ppp-container1 {
+    display: flex;
+    margin: 16px 16px;
+    padding: 8px 0px 8px 0px;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ppp-head {
+    font-family: "Simplon Norm";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #252020;
+    margin: 0;
+    padding: 0px 0px 16px 0px;
+  }
+
+  .ppp-text {
+    font-family: "Simplon Norm";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #252020;
+    margin: 0;
+    width: calc(90%);
+  }
+
+  .ppp-toSHow {
+    display: none;
+  }
+
+  .ppp-toSHow1 {
+    display: flex;
+    width: calc(100%);
+  }
+
+  .ppp-divider {
+    height: 32px;
+    width: 1px;
+    background-color: #E5E5E5;
+    display: flex;
+    position: absolute;
+    left: calc(50%);
+  }
+}

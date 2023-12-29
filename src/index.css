@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Simplon+Norm:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Adobe+Caslon+Pro:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-simplon-norm: "Simplon Norm";
+  --font-adobe-caslon-pro: "Adobe Caslon Pro";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xl: 1.25rem;
+  --font-size-sm: 0.88rem;
+  --font-size-lg: 1.13rem;
+  --font-size-base: 1rem;
+  --font-size-xs: 0.75rem;
+  --font-size-5xl-7: 1.54rem;
+
+  /* Colors */
+  --misc-white: #fff;
+  --text-secondary-text1: #888792;
+  --text-text: #252020;
+  --color-gainsboro: #e5e5e5;
+  --misc-black: #000;
+  --text-tertiary-text: #bfc8cd;
+  --color-whitesmoke: #f1f1f1;
+  --color-mediumblue: #5a31f4;
+  --misc-bg: #fff2f5;
+  --color-dodgerblue: #006fcf;
+  --primary-primary: #eb4c6b;
+  --text-secondary-text: #4d4d4d;
+
+  /* Gaps */
+  --gap-5xs: 0.5rem;
+  --gap-5xl: 1.5rem;
+  --gap-8xs: 0.31rem;
+  --gap-base: 1rem;
+  --gap-xs: 0.75rem;
+  --gap-3xs: 0.63rem;
+  --gap-45xl: 4rem;
+
+  /* Paddings */
+  --padding-sm: 0.88rem;
+  --padding-5xl: 1.5rem;
+
+  /* Border radiuses */
+  --br-5xl: 24px;
+  --br-8xs: 5px;
+  --br-13xl: 32px;
+  --br-7xl-2: 26.2px;
+}
